@@ -9,7 +9,8 @@
  
   <body> 
 	<header id= "titre_header">mes dev! Web en SNIR</header>
-	<aside id="aside"><a>https://www.w3schools.com/</a></aside>
+	<aside id="aside"><a>https://www.w3schools.com/</a>
+	<video controls width="100%"> <source src="fight.mp4" type="video/mp4"></video></aside>
 	<nav id="nav"> <ul class="navigation"><li id="nav_mon_cv">Mon CV</li>
 		<li id="nav_mon_site" >Mon site</li>
 		<li id="nav_inscription">Inscription</li>
@@ -160,13 +161,16 @@
 <label for="pseudo">Pseudo :</label>
 <input type="text" id="pseudo" name="pseudo_utilisateur" required/>
 <br/>
-<label for="mdp1">Mot de passe (<span id="mdp_longueur" >8 caractères</span> avec au moins : <span id="mdp_majuscule" >1 majuscule</span>, <span id="mdp_minuscule" >1 minuscule</span>, <span id="mdp_chiffre" >1 chiffre</span> et <span id="mdp_special" >1 caractère spécial</span>.) :</label>
+<label for="mdp1">Mot de passe 
+	(<span id="mdp_longueur" class="rouge">8 caractères</span> 
+	avec au moins : 
+	<span id="mdp_majuscule" class="rouge" >1 majuscule</span>, <span id="mdp_minuscule"class="rouge" >1 minuscule</span>, <span id="mdp_chiffre" class="rouge">1 chiffre</span> et <span id="mdp_special" class="rouge" >1 caractère spécial</span>.) :</label>
 <input type="password" id="mdp1" name="mdp1_utilisateur" required/>
 <br/>
 <label for="mdp2">Ressaisir le mot de passe :</label>
 <input type="password" id="mdp2" name="mdp2_utilisateur" required/>
 <br/><br/>
-<input type="submit" value="M'inscrire">
+<input id="submit_inscription" type="submit" value="M'inscrire">
 </form>
 		
 		</div>
